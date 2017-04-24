@@ -483,14 +483,14 @@ https://gist.github.com/Iyeonghun/818018c9a43222e6a3183e5dfd418531
 #### VCS > Git > Add
 - Add 메뉴를 통해서 변경 파일을 모두 Add 한다. (이 시점에서 변경 파일은 .gitignore 하나 뿐이다.)
 
-#### Commit & Push ( ![90%](android_commit.png) 버튼 )
+#### Commit & Push ( ![](images/android_commit.png) 버튼 )
 
 - Commit 메세지를 적고 **Commit and Push**를 눌러 원격 저장소에도 저장한다. 
 
 ![](images/android_ignore1.png) ![](images/android_ignore2.png)
 
 ### Pull
-두개 이상의 로컬에서 같은 프로젝트를 작업 하기 위하여 원격 저장소에 있는 최신 파일로 업데이트를 해야 한다면 ![](android_pull1.png) 버튼을 눌러 `Pull`할 수 있도록 한다.
+두개 이상의 로컬에서 같은 프로젝트를 작업 하기 위하여 원격 저장소에 있는 최신 파일로 업데이트를 해야 한다면 ![](images/android_pull1.png) 버튼을 눌러 `Pull`할 수 있도록 한다.
 
 - 다음과 같은 창이 나오는데 기본값 상태로 Ok를 눌러 업데이트한다.
 
