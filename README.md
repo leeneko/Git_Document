@@ -1,8 +1,10 @@
 # Git과 GitHub를 사용한 소프트웨어 개발
 
-<br><br>
+<br>
 
 ![](images/git_logo.png) ![](images/github_logo.png)
+
+<br>
 
 ### Git과 GitHub 기본 사용법, Git GUI 도구 사용법, 팀 프로젝트 관리
 ##### [PPT 파일](https://github.com/Iyeonghun/Git_Document/blob/master/Git과%20Github를%20사용한%20소프트웨어개발.pdf)
