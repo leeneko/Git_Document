@@ -1,13 +1,11 @@
 # Git과 GitHub를 사용한 소프트웨어 개발
 
-<br>
+<br><br>
 
 ![](images/git_logo.png) ![](images/github_logo.png)
 
-<br>
-
 ### Git과 GitHub 기본 사용법, Git GUI 도구 사용법, 팀 프로젝트 관리
-##### [PPT 파일](https://github.com/Iyeonghun/Git_Document/blob/master/Git과%20Github를%20사용한%20소프트웨어개발.pdf)
+###[PPT 파일](./Git과 Github를 사용한 소프트웨어 개발.pdf)
 ##### Created by 이영훈 ( [@iyeonghun](https://github.com/iyeonghun) )
 
 ## 목차
@@ -237,7 +235,7 @@ $ git branch
 **master**는 현재 Branch로 별표로 표시가 되어있다. 
 전 페이지에서 생성한 새로운 Branch로 전환하기 위하여 아래 커맨드를 사용한다.
 ```
-$ git branch new_branch
+$ git checkout new_branch
 ```
 
 ### Merging, Removing branch
@@ -433,22 +431,27 @@ Issue 기능은 여러가지로 사용될 수 있는데 주로 사용되는 것�
 
 ## Ch6. Android Studio Git Client
 - Android Studio Git 설정
+- gitignore 설정
 - 원격 Repository 생성 및 연결
-- gitignore 설정(Add, Commit)
+- Add, Commit, Push
 - Pull
 
 ### Android Studio Git 설정
-#### VCS > Enable Version Control Integration
-- 사용할 version control system을 Git으로 선택한다.
-
-![](images/git_set1.png)
-
 #### File > Settings... > Version Control > Git
 - 설치한 Windows용 Git의 실행파일인 Git.exe의 위치를 등록한다.
 
 ![](images/git_set2.png)
 
 이후 Test 버튼을 눌러 정상적으로 실행 되는지 확인한다.
+
+### gitignore 설정
+`.gitignore` 파일을 아래 링크의 code snippet에 적힌대로 수정한다.
+https://gist.github.com/Iyeonghun/818018c9a43222e6a3183e5dfd418531
+
+> app의 .gitignore 파일이 아닌 Project의 .gitignore 파일을 수정 하여야 한다.
+
+![](images/android_ignore3.png)
+
 
 ### 원격 Repository 생성 및 연결
 #### VCS > Import into Version Control > Share Project on GitHub
@@ -468,7 +471,7 @@ Issue 기능은 여러가지로 사용될 수 있는데 주로 사용되는 것�
 
 ![](images/android_connect3.png)
 
-> 꼭 `.idea`를 체크 해제 한다. (최초 시작 프로젝트인 경우)
+> 꼭 `.idea`를 체크 해제 한다. (없는 경우는 생략한다)
 
 ### 원격 Repository 생성 및 연결
 마지막으로 Push 완료 후 아래와 같은 창이 나올 수 있는데 이 때 **Rember, don't ask again**에 체크 후 **No**를 눌러 창을 종료한다.
@@ -477,13 +480,9 @@ Issue 기능은 여러가지로 사용될 수 있는데 주로 사용되는 것�
 
 > 꼭 No를 누르도록 한다. (필요없는 파일)
 
-### gitignore 설정(Add, Commit)
-
-`.gitignore` 파일을 아래 링크의 code snippet에 적힌대로 수정한다.
-https://gist.github.com/Iyeonghun/818018c9a43222e6a3183e5dfd418531
-
+### Add, Commit, Push
 #### VCS > Git > Add
-- Add 메뉴를 통해서 변경 파일을 모두 Add 한다. (이 시점에서 변경 파일은 .gitignore 하나 뿐이다.)
+- Add 메뉴를 통해서 변경 파일을 모두 Add 한다.
 
 #### Commit & Push ( ![](images/android_commit.png) 버튼 )
 
