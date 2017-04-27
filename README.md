@@ -5,7 +5,7 @@
 ![](images/git_logo.png) ![](images/github_logo.png)
 
 ### Git과 GitHub 기본 사용법, Git GUI 도구 사용법, 팀 프로젝트 관리
-##### [PPT 파일](https://github.com/Iyeonghun/Git_Document/blob/master/Git과%20GitHub를%20사용하는%20소프트웨어%20개발.pdf)
+##### [PPT 파일](https://github.com/Iyeonghun/Git_Document/blob/master/Git과%20GitHub를%20사용하는%20소프트웨어%20개발.pdf), [예제 프로그램 PPT 파일](https://github.com/Iyeonghun/Git_Document/blob/master/안드로이드%20Git%20사용%20개발%20예제.pdf)
 ##### Created by 이영훈 ( [@iyeonghun](https://github.com/iyeonghun) )
 
 ## 목차
